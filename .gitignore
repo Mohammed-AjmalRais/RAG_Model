@@ -1,0 +1,25 @@
+# Environment variables and secrets
+.env
+*.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Data and ChromaDB
+files/data/uploads/*
+files/data/chroma_db/*
+!files/data/uploads/.gitkeep
+!files/data/chroma_db/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
